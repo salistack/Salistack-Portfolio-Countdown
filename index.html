@@ -1,225 +1,207 @@
-
-<!doctype html>
-<html lang="en-US">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
-	<!-- Meta -->
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<meta name="description" content="CV & Resume Template" />
-	<meta name="keywords" content="vcard, resposnive, resume, personal, card, cv, cvio, portfolio" />
-	<meta name="author" content="beshleyua" />
-
-	<!-- Title -->
-	<title>Cvio - Resume/CV Template</title>
-
-	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic" rel="stylesheet">
-
-	<!-- Styles -->
-	<link rel="stylesheet" href="css/basic.css" />
-	<link rel="stylesheet" href="css/layout.css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" />
-	<link rel="stylesheet" href="css/animate.css" />
-	<link rel="stylesheet" href="css/jarallax.css" />
-	<link rel="stylesheet" href="css/swiper.css" />
-	<link rel="stylesheet" href="css/fontawesome.css" />
-	<link rel="stylesheet" href="css/brands.css" />
-	<link rel="stylesheet" href="css/solid.css" />
-
-	<!-- Theme Colors
-	<link rel="stylesheet" href="css/theme-colors/blue.css" />
-	<link rel="stylesheet" href="css/theme-colors/green.css" />
-	<link rel="stylesheet" href="css/theme-colors/orange.css" />
-	<link rel="stylesheet" href="css/theme-colors/brown.css" />
-	<link rel="stylesheet" href="css/theme-colors/purple.css" />
-	<link rel="stylesheet" href="css/theme-colors/red.css" />
-	<link rel="stylesheet" href="css/theme-colors/beige.css" />
-	<link rel="stylesheet" href="css/theme-colors/green_light.css" />
-	<link rel="stylesheet" href="css/theme-colors/yellow.css" />
-	<link rel="stylesheet" href="css/theme-colors/yellow_light.css" />
-	-->
-		
-	<!--[if lt IE 9]>
-	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-
-	<link rel="shortcut icon" href="images/favicons/favicon.ico">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Our WhatsApp Group</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #128C7E 0%, #075E54 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 500px;
+            width: 100%;
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            position: relative;
+        }
+        .header {
+            background: #25D366;
+            padding: 30px 20px;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+        .header::before {
+            content: "";
+            position: absolute;
+            top: -50px;
+            left: -50px;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        .header::after {
+            content: "";
+            position: absolute;
+            bottom: -60px;
+            right: -60px;
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        .logo {
+            font-size: 4rem;
+            margin-bottom: 15px;
+            position: relative;
+            z-index: 1;
+        }
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 1;
+        }
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 80%;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+        .content {
+            padding: 40px 30px;
+            background: white;
+        }
+        .join-button {
+            display: inline-block;
+            background: #25D366;
+            color: white;
+            text-decoration: none;
+            padding: 18px 50px;
+            border-radius: 50px;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin: 20px 0;
+            box-shadow: 0 5px 15px rgba(37, 211, 102, 0.4);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            border: none;
+            cursor: pointer;
+            letter-spacing: 0.5px;
+        }
+        .join-button:hover {
+            background: #128C7E;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(37, 211, 102, 0.6);
+        }
+        .join-button:active {
+            transform: translateY(0);
+        }
+        .join-button i {
+            margin-right: 10px;
+        }
+        .note {
+            color: #666;
+            font-size: 0.9rem;
+            margin-top: 25px;
+            line-height: 1.5;
+        }
+        .users {
+            display: flex;
+            justify-content: center;
+            margin-top: 25px;
+        }
+        .user {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid white;
+            margin-left: -15px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+        .user:first-child {
+            margin-left: 0;
+        }
+        .user img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .users-text {
+            margin-top: 10px;
+            color: #555;
+            font-weight: 500;
+        }
+        .footer {
+            background: #f9f9f9;
+            padding: 20px;
+            color: #777;
+            font-size: 0.85rem;
+        }
+        @media (max-width: 480px) {
+            .container {
+                border-radius: 15px;
+            }
+            .header {
+                padding: 25px 15px;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            .subtitle {
+                font-size: 0.95rem;
+            }
+            .content {
+                padding: 30px 20px;
+            }
+            .join-button {
+                padding: 16px 40px;
+                font-size: 1.1rem;
+            }
+        }
+    </style>
 </head>
-
-<body class="home">
-
-	<!-- Preloader -->
-	<div class="preloader">
-		<div class="centrize full-width">
-			<div class="vertical-center">
-				<div class="spinner">
-					<div class="double-bounce1"></div>
-					<div class="double-bounce2"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<!-- Container -->
-	<div class="container">
-
-		<!-- Cursor -->
-		<div class="cursor-follower"></div>
-	
-		<!-- Header -->
-		<header class="header">
-			<div class="head-top">
-
-				<!-- menu button -->
-				<a href="#" class="menu-btn"><span></span></a>
-
-				<!-- logo -->
-				<div class="logo hover-masks-logo">
-					<a href="#">
-						<span class="mask-lnk">Alejandro <strong>Abeyta</strong></span>
-						<span class="mask-lnk mask-lnk-hover">Download <strong>CV</strong></span>
-					</a>
-				</div>
-				
-				<!-- top menu -->						
-				<div class="top-menu hover-masks">
-					<div class="top-menu-nav">	
-						<div class="menu-topmenu-container">
-							<ul class="menu">
-								<li class="menu-item menu-item-has-children current-menu-item">
-									<a href="index.html">Home</a>
-									<ul class="sub-menu">
-										<li class="menu-item current-menu-item"><a href="index.html">Home Default</a></li>
-										<li class="menu-item"><a href="index_creative.html">Home Creative</a></li>
-										<li class="menu-item"><a href="index_slider.html">Home Slider</a></li>
-										<li class="menu-item"><a href="index_personal.html">Home Personal</a></li>
-										<li class="menu-item"><a href="index_onepage.html" target="blank">Home OnePage</a></li>
-										<li class="menu-item"><a href="index_image.html">Home Image</a></li>
-										<li class="menu-item"><a href="index_video.html">Home Video</a></li>
-									</ul>
-								</li>
-								<li class="menu-item menu-item-has-children">
-									<a href="resume.html">Resume</a>
-									<ul class="sub-menu">
-										<li class="menu-item"><a href="resume.html">Resume Default</a></li>
-										<li class="menu-item"><a href="resume_image.html">Resume Image</a></li>
-										<li class="menu-item"><a href="resume_creative.html">Resume Creative</a></li>
-									</ul>
-								</li>
-								<li class="menu-item menu-item-has-children">
-									<a href="works.html">Works</a>
-									<ul class="sub-menu">
-										<li class="menu-item"><a href="works.html">Works Default</a></li>
-										<li class="menu-item"><a href="works_creative.html">Works Creative</a></li>
-										<li class="menu-item"><a href="work_single.html">Work Single</a></li>
-										<li class="menu-item"><a href="work_single_image.html">Work Single Image</a></li>
-										<li class="menu-item"><a href="work_single_creative.html">Work Single Creative</a></li>
-									</ul>
-								</li>
-								<li class="menu-item menu-item-has-children">
-									<a href="contacts.html">Contact</a>
-									<ul class="sub-menu">
-										<li class="menu-item"><a href="contacts.html">Contact Default</a></li>
-										<li class="menu-item"><a href="contacts_map.html">Contact Map</a></li>
-										<li class="menu-item"><a href="contacts_image.html">Contact Image</a></li>
-										<li class="menu-item"><a href="contacts_creative.html">Contact Creative</a></li>
-									</ul>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</header>
-		
-		<!-- Wrapper -->
-		<div class="wrapper">	
-
-			<!-- Section Started -->
-			<div class="section started" id="section-started">
-
-				<!-- background -->
-				<div class="video-bg">
-					<div class="video-bg-mask"></div>
-					<div class="video-bg-texture" id="grained_container"></div>
-				</div>
-
-				<!-- started content -->
-				<div class="centrize full-width">
-					<div class="vertical-center">
-						<div class="started-content">
-							<h1 class="h-title">
-								Hello, I’m <strong>Alejandro Abeyta</strong>, UX/UI Designer and <br />
-								Front-end Developer Based in San Francisco.
-							</h1>
-							<div class="h-subtitle typing-subtitle">
-								<p>I code cool <strong>websites</strong></p>
-								<p>I develop <strong>mobile apps</strong></p>
-								<p>I love <strong>wordpress</strong></p>
-							</div>
-							<span class="typed-subtitle"></span>
-						</div>
-					</div>
-				</div>
-
-			</div>
-
-		</div>
-		
-		<!-- Footer -->
-		<footer class="footer">
-			<div class="copy">
-				<p>E: alejandroa@gmail.com</p>
-				<p>T: +1 (234) 567 80 98</p>
-			</div>
-			<div class="soc-box">
-				<div class="follow-label">Follow Me</div>
-				<div class="soc">
-					<a target="_blank" href="https://www.pinterest.com/">
-						<span class="icon fab fa-pinterest"></span>
-					</a>
-					<a target="_blank" href="https://www.instagram.com/">
-						<span class="icon fab fa-instagram"></span>
-					</a>
-					<a target="_blank" href="https://dribbble.com/">
-						<span class="icon fab fa-dribbble"></span>
-					</a>
-				</div>
-			</div>
-			<div class="clear"></div>
-		</footer>
-
-		<!-- Lines -->
-		<div class="lines">
-			<div class="content">
-				<div class="line-col"></div>
-				<div class="line-col"></div>
-				<div class="line-col"></div>
-				<div class="line-col"></div>
-				<div class="line-col"></div>
-			</div>
-		</div>
-		
-	</div>
-
-	<!-- Scripts -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery.validate.js"></script>
-	<script src="js/magnific-popup.js"></script>
-	<script src="js/simpleParallax.js"></script>
-	<script src="js/typed.js"></script>
-	<script src="js/jarallax.js"></script>
-	<script src="js/jarallax-video.js"></script>
-	<script src="js/jarallax-element.js"></script>
-	<script src="js/imagesloaded.pkgd.js"></script>
-	<script src="js/isotope.pkgd.js"></script>
-	<script src="js/swiper.js"></script>
-	<script src="js/grained.js"></script>
-	<script src="js/scripts.js"></script>
-
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <i class="fab fa-whatsapp"></i>
+            </div>
+            <h1>📢 Join Our Colombo Career Guidance Community!</h1>
+            <p class="subtitle">
+                Stay updated with all the latest news, events, and opportunities in our Career Guidance Program – exclusively for students and youth in Colombo.
+            </p>
+        </div>
+        <div class="content">
+            <a href="https://chat.whatsapp.com/KVVNHsh7MVbBhQLi8eGPol" class="join-button" target="_blank">
+                <i class="fab fa-whatsapp"></i> Join WhatsApp Community Now!
+            </a>
+            <p class="note">
+                🚀 Don’t miss out — tap the link and become part of the journey!
+            </p>
+            <div class="users">
+                <div class="user"><img src="https://randomuser.me/api/portraits/women/32.jpg" alt="User"></div>
+                <div class="user"><img src="https://randomuser.me/api/portraits/men/44.jpg" alt="User"></div>
+                <div class="user"><img src="https://randomuser.me/api/portraits/women/68.jpg" alt="User"></div>
+                <div class="user"><img src="https://randomuser.me/api/portraits/men/97.jpg" alt="User"></div>
+                <div class="user"><img src="https://ui-avatars.com/api/?name=New+Member" alt="User"></div>
+            </div>
+            <p class="users-text">Join 100+ members already in the group</p>
+        </div>
+        <div class="footer">
+            <p>© 2023 Community Group. All rights reserved.</p>
+        </div>
+    </div>
 </body>
 </html>
